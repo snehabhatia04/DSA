@@ -4,7 +4,7 @@ public:
         int ind=-1;
         int i;
         for(i=s.length()-1; i>=0; i--){
-            if(s[i]%2==1){
+            if((s[i]-'0')%2==1){
                 ind=i;
                 break;
             }
